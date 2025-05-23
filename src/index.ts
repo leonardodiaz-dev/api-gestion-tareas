@@ -11,7 +11,7 @@ const app = express();
 
 app.use(morgan('dev'));
 app.use(cors({
-  origin: 'https://gestion-tareas-kanban.netlify.app/', 
+  origin: 'https://gestion-tareas-kanban.netlify.app', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   credentials: true 
 }));
